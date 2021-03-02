@@ -87,7 +87,7 @@ ul li a {
 }
 
 .font-hover-black:hover {
-  color: black !important;
+  color: black;
 }
 
 .font-hover-menu:hover {
@@ -95,8 +95,8 @@ ul li a {
 }
 
 .underline-hover-red:hover {
-  text-decoration: underline !important;
-  text-decoration-color: #f72210 !important;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 @media only screen and (min-width: 768px) {
@@ -109,7 +109,7 @@ ul li a {
   }
 
   .border-right-min-tablet {
-    border-right: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6;
     cursor: pointer;
   }
 }
@@ -121,7 +121,7 @@ ul li a {
   }
 
   .border-right-min-tablet-1 {
-    border-right: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6;
     cursor: pointer;
   }
 
