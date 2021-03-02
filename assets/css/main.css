@@ -116,4 +116,29 @@ ul li a {
     border-right: 1px solid #dee2e6 !important;
     cursor: pointer;
   }
+
+  .trending-nav {
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .search-block {
+    padding-right: 5em;
+  }
+
+  .search-block input {
+    max-width: 4em;
+  }
+
+  .main-navs::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 5em;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
 }
