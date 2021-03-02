@@ -1,59 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Newsweek
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
+> This is a clone of The Newsweek Website homepage using HTML & CSS & bootstrap: https://web.archive.org/web/20210120125445/https://www.newsweek.com/ . The goal of
+> To achieve this, the project makes use of HTML5 and CSS3 and focuses on the web responsivity aspects of the project, making use of media queries to achieve this and bootstrap mainly.
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5 , CSS3
+- Bootstrap
+- Windows, Linux
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Maha Magdy**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
+- Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)
+- LinkedIn: [Maha Magdy](https://www.linkedin.com/in/maha-magdy-18a8a7116/)
 
 ## 🤝 Contributing
 
@@ -67,9 +37,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Next Web ( https://www.newsweek.com/ )
+- Microverse ( https://www.microverse.org/ )
 
 ## 📝 License
 
