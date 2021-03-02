@@ -71,15 +71,15 @@ ul li a {
 /* Hover effects */
 
 .font-hover-red:hover {
-  color: #f72210 !important;
+  color: #f72210;
 }
 
 .font-hover-white:hover {
-  color: #fff !important;
+  color: #fff;
 }
 
 .font-hover-blue:hover {
-  color: blue !important;
+  color: blue;
 }
 
 .font-hover-black:hover {

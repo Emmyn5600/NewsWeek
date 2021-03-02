@@ -35,7 +35,8 @@ Additional description about the project and its features.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Emmyn5600/NewsWeek/issues
+).
 
 ## Show your support
 
@@ -48,4 +49,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://www.mit.edu/) licensed.
