@@ -1,0 +1,156 @@
+body {
+  background-color: #f4f5f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-orange {
+  background-color: #f72210;
+}
+
+.header-svg-of-logo {
+  width: 132px;
+  height: 20px;
+}
+
+.svg-of-logo {
+  fill: white;
+}
+
+.log-in i,
+.burger-menu i {
+  opacity: 0.75;
+}
+
+ul li a {
+  color: #666;
+}
+
+.login-button a {
+  color: white;
+}
+
+.subscribe-btn a {
+  color: #000;
+}
+
+.subscribe-btn {
+  background-color: #ffe400;
+  font-size: 0.8em;
+}
+
+.subscribe-btn i {
+  font-size: 0.75em;
+}
+
+.mt-3 a {
+  color: black;
+  opacity: 0.65;
+}
+
+.nav-menu ul li a {
+  color: #000;
+}
+
+.footer-svg-of-logo-2 {
+  width: 130px;
+  height: 20px;
+}
+
+.svg-of-logo-2 {
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  fill: #f72210;
+}
+
+.navbar {
+  padding-top: 10px;
+  font-size: 13px;
+  color: #666;
+}
+
+/* Hover effects */
+
+.font-hover-red:hover {
+  color: #f72210;
+}
+
+.font-hover-white:hover {
+  color: #fff;
+}
+
+.font-hover-blue:hover {
+  color: blue;
+}
+
+.font-hover-black:hover {
+  color: black;
+}
+
+.font-hover-menu:hover {
+  color: red;
+}
+
+.underline-hover-red:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe-btn {
+    font-size: 1em;
+  }
+
+  .subscribe-btn i {
+    font-size: 0.9em;
+  }
+
+  .border-right-min-tablet {
+    border-right: 1px solid #dee2e6;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-svg-of-logo {
+    width: 396px;
+    height: 60px;
+  }
+
+  .border-right-min-tablet-1 {
+    border-right: 1px solid #dee2e6;
+    cursor: pointer;
+  }
+
+  .trending-nav {
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .search-block {
+    padding-right: 5em;
+  }
+
+  .search-block input {
+    max-width: 4em;
+  }
+
+  .main-navs::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 5em;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+
+  .nav-menu li {
+    padding: 0 2px;
+  }
+}
