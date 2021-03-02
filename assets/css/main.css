@@ -1,0 +1,105 @@
+body {
+  background-color: #f4f5f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-orange {
+  background-color: #f72210;
+}
+
+.header-svg-of-logo {
+  width: 132px;
+  height: 20px;
+}
+
+.svg-of-logo {
+  fill: white;
+}
+
+.log-in i,
+.burger-menu i {
+  opacity: 0.75;
+}
+
+.subscribe-btn {
+  background-color: #ffe400;
+  font-size: 0.8em;
+}
+
+.subscribe-btn i {
+  font-size: 0.75em;
+}
+
+.footer-svg-of-logo-2 {
+  width: 130px;
+  height: 20px;
+}
+
+.svg-of-logo-2 {
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  fill: #f72210;
+}
+
+.navbar {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+ul li a {
+  color: #666;
+}
+
+.mt-3 a {
+  color: black;
+  opacity: 0.65;
+}
+
+/* Hover effects */
+
+.font-hover-red:hover {
+  color: #f72210 !important;
+}
+
+.font-hover-white:hover {
+  color: #fff !important;
+}
+
+.font-hover-blue:hover {
+  color: blue !important;
+}
+
+.font-hover-black:hover {
+  color: black !important;
+}
+
+.underline-hover-red:hover {
+  text-decoration: underline !important;
+  text-decoration-color: #f72210 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe-btn {
+    font-size: 1em;
+  }
+
+  .subscribe-btn i {
+    font-size: 0.9em;
+  }
+
+  .border-right-min-tablet {
+    border-right: 1px solid #dee2e6 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-svg-of-logo {
+    width: 396px;
+    height: 60px;
+  }
+}
