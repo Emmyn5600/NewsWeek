@@ -1,4 +1,18 @@
-body {
+/* shared-classes */
+.main-headline-color {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.badge-color {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.main-color {
+  color: #f72210;
+}
+
+body,
+main {
   background-color: #f4f5f6;
 }
 
@@ -70,6 +84,55 @@ ul li a {
   padding-top: 10px;
   font-size: 13px;
   color: #666;
+}
+
+.depate-border {
+  border-top: 0.25em solid #d9d9d9;
+  border-bottom: 0.25em solid #d9d9d9;
+}
+
+.opinion-section-border {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.deco {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none outside none;
+  outline: 0 none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.deco::before,
+.deco::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.deco::before {
+  top: calc(50% - 2px);
+}
+
+.deco::after {
+  top: 50%;
+}
+
+.c-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
 
 /* Hover effects */
