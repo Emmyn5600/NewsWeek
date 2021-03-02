@@ -33,6 +33,15 @@ a {
   font-size: 0.75em;
 }
 
+ul li a {
+  color: #666;
+}
+
+.mt-3 a {
+  color: black;
+  opacity: 0.65;
+}
+
 .nav-menu ul li a {
   color: #000;
 }
@@ -53,15 +62,6 @@ a {
   padding-top: 10px;
   font-size: 14px;
   color: #666;
-}
-
-ul li a {
-  color: #666;
-}
-
-.mt-3 a {
-  color: black;
-  opacity: 0.65;
 }
 
 /* Hover effects */
