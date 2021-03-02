@@ -5,18 +5,6 @@
 > This is a clone of The Newsweek Website homepage using HTML & CSS & bootstrap: https://web.archive.org/web/20210120125445/https://www.newsweek.com/ . The goal of
 > To achieve this, the project makes use of HTML5 and CSS3 and focuses on the web responsivity aspects of the project, making use of media queries to achieve this and bootstrap mainly.
 
-Desktop View
-![Desktop]
-(./assets/images/newsweek-desktop)
-
-Tablet View
-![Tablet]
-(./assets/images/newsweek-tablet)
-
-Mobile View 
-![Mobile]
-(./assets/images/newsweek-mobile)
-
 Additional description about the project and its features.
 
 ## Built With
