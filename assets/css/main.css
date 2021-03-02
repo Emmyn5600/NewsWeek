@@ -33,6 +33,10 @@ a {
   font-size: 0.75em;
 }
 
+.nav-menu ul li a {
+  color: #000;
+}
+
 .footer-svg-of-logo-2 {
   width: 130px;
   height: 20px;
@@ -78,6 +82,10 @@ ul li a {
   color: black !important;
 }
 
+.font-hover-menu:hover {
+  color: red;
+}
+
 .underline-hover-red:hover {
   text-decoration: underline !important;
   text-decoration-color: #f72210 !important;
@@ -102,5 +110,10 @@ ul li a {
   .header-svg-of-logo {
     width: 396px;
     height: 60px;
+  }
+
+  .border-right-min-tablet-1 {
+    border-right: 1px solid #dee2e6 !important;
+    cursor: pointer;
   }
 }
