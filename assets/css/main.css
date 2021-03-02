@@ -94,6 +94,7 @@ ul li a {
 
   .border-right-min-tablet {
     border-right: 1px solid #dee2e6 !important;
+    cursor: pointer;
   }
 }
 
