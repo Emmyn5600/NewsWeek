@@ -28,6 +28,10 @@ ul li a {
   color: #666;
 }
 
+.login-button a {
+  color: white;
+}
+
 .subscribe-btn a {
   color: #000;
 }
