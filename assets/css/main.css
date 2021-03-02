@@ -24,6 +24,14 @@ a {
   opacity: 0.75;
 }
 
+ul li a {
+  color: #666;
+}
+
+.subscribe-btn a {
+  color: #000;
+}
+
 .subscribe-btn {
   background-color: #ffe400;
   font-size: 0.8em;
@@ -31,10 +39,6 @@ a {
 
 .subscribe-btn i {
   font-size: 0.75em;
-}
-
-ul li a {
-  color: #666;
 }
 
 .mt-3 a {
