@@ -19,6 +19,12 @@ Additional description about the project and its features.
 
 ## Authors
 
+👤 **NSABIMANA Emmanuel**
+
+- GitHub: [@emmyn5600](https://github.com/Emmyn5600)
+- Twitter: [@NSABIMA62253884](https://twitter.com/NSABIMA62253884)
+- LinkedIn: [@nsabimana-emmanuel-4276091b2](https://www.linkedin.com/in/nsabimana-emmanuel-4276091b2/)
+
 👤 **Maha Magdy**
 
 - GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
