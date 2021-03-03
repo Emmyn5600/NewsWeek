@@ -46,7 +46,9 @@
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background:
+    url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
+    center/contain no-repeat #f72210;
   margin-right: 10px;
 }
 
@@ -67,7 +69,9 @@
   cursor: pointer;
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)center/108px no-repeat #f61602;
+  background:
+    url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)
+    center/108px no-repeat #f61602;
   border-radius: 3px;
 }
 
@@ -295,6 +299,22 @@ main.row {
   .image-fixed-height {
     height: 150px;
   }
+
+  .opinion-section-border > div > div:first-child {
+    width: 12%;
+    display: inline-block;
+  }
+
+  .opinion-section-border > div > div:last-child {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .width-double-in-lg-screen {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -335,5 +355,25 @@ main.row {
 
   .nav-menu li {
     padding: 0 2px;
+  }
+
+  .debate .media-body {
+    width: 75%;
+  }
+
+  .opinion-section-border > div > div:first-child {
+    width: 25%;
+    display: inline-block;
+  }
+
+  .opinion-section-border > div > div:last-child {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .width-double-in-lg-screen {
+    width: 100%;
   }
 }
