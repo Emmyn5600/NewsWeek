@@ -12,7 +12,11 @@
 }
 
 .main-color {
-  color: #3581f4;
+  color: #f72210;
+}
+
+.secondary-color {
+  color: #333;
 }
 
 .main-color-2 {
@@ -64,8 +68,7 @@
   cursor: pointer;
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background:
-  url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)
+  background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)
     center/108px no-repeat #f61602;
   border-radius: 3px;
 }
@@ -100,6 +103,10 @@ h6 {
   margin-bottom: 10px;
 }
 
+.title-link:hover {
+  color: rgba(34, 33, 33, 0.5);
+}
+
 ul li a {
   color: #666;
 }
@@ -109,8 +116,7 @@ ul li a {
 }
 
 .latest-news-head {
-  color: rgba(129, 128, 128, 0.4);
-  opacity: 0.65;
+  color: rgba(3,3,3,.4);
 }
 
 p {
@@ -153,11 +159,6 @@ p {
 
 .subscribe-btn i {
   font-size: 0.75em;
-}
-
-.mt-3 a {
-  color: black;
-  opacity: 0.65;
 }
 
 .nav-menu ul li a {
@@ -235,6 +236,11 @@ p {
   padding: 0;
 }
 
+main.row {
+  padding-right: calc(var(--bs-gutter-x) / 2);
+  padding-left: calc(var(--bs-gutter-x) / 2);
+}
+
 /* Hover effects */
 
 .font-hover-red:hover {
@@ -274,6 +280,19 @@ p {
   .border-right-min-tablet {
     border-right: 1px solid #dee2e6;
     cursor: pointer;
+  }
+
+  
+  h1 > a.underline-effect:hover {
+    text-decoration: underline #f72210;
+  }
+
+  .full-minimum-height {
+    min-height: 100%;
+  }
+
+  .image-fixed-height {
+    height: 150px;
   }
 }
 
