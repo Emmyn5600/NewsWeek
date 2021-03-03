@@ -29,6 +29,37 @@ h6 {
   cursor: pointer;
 }
 
+.image img {
+  width: 455px;
+  height: 397px;
+}
+
+.title-link {
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgba(34, 33, 33, 0.5);
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #666;
+}
+
+.block-title a {
+  color: rgba(34, 33, 33, 0.5);
+}
+
+/* div.image a.zero {
+  display: block;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+} */
+
 .latest-news-head {
   color: rgba(129, 128, 128, 0.4);
   opacity: 0.65;
@@ -62,10 +93,6 @@ p {
 .log-in i,
 .burger-menu i {
   opacity: 0.75;
-}
-
-ul li a {
-  color: #666;
 }
 
 .login-button a {
