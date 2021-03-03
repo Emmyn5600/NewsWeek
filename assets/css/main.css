@@ -64,7 +64,8 @@
   cursor: pointer;
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)
+  background:
+  url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)
     center/108px no-repeat #f61602;
   border-radius: 3px;
 }
