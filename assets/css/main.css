@@ -266,6 +266,10 @@ main.row {
   text-decoration-color: #f72210;
 }
 
+.social-media-footer a i {
+  color: #000;
+}
+
 @media only screen and (min-width: 768px) {
   .subscribe-btn {
     font-size: 1em;
@@ -331,9 +335,5 @@ main.row {
 
   .nav-menu li {
     padding: 0 2px;
-  }
-
-  .section-part-desktop {
-    width: 40%;
   }
 }
