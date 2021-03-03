@@ -117,11 +117,6 @@ p {
   overflow-x: hidden;
 }
 
-.latest-images img {
-  height: 90px;
-  width: 100%;
-}
-
 .bg-orange {
   background-color: #f72210;
 }
