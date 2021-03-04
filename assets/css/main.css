@@ -405,6 +405,10 @@ div.image-2 {
   border: none;
 }
 
+.title-head {
+  color: #f72310;
+}
+
 .image-background-newsweek {
   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png");
   background-repeat: no-repeat;
