@@ -11,6 +11,10 @@
   background-color: #c2d4d7;
 }
 
+.main-badge-color {
+  background-color: #f72210;
+}
+
 .main-color {
   color: #f72210;
 }
@@ -27,6 +31,14 @@
   color: #3581f4;
 }
 
+.light-grey-background-color {
+  background-color: #f4f5f6;
+}
+
+.light-grey-background-color:hover {
+  background-color: #dbdcdd;
+}
+
 .newsletter-signup .free-signup input {
   width: 100%;
   height: 32px;
@@ -41,12 +53,14 @@
   padding: 20px;
 }
 
-.n-title .icon-n {
+.icon-n {
   flex: none;
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background:
+    url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
+    center/contain no-repeat #f72210;
   margin-right: 10px;
 }
 
@@ -67,7 +81,9 @@
   cursor: pointer;
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)center/108px no-repeat #f61602;
+  background:
+    url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg)
+    center/108px no-repeat #f61602;
   border-radius: 3px;
 }
 
@@ -91,7 +107,7 @@ h6 {
 
 .image img {
   width: 425px;
-  height: 397px;
+  height: auto;
 }
 
 .title-link {
@@ -230,13 +246,33 @@ p {
   margin: 6px auto;
 }
 
-.more-stories-section .col-3 {
-  padding: 0;
+.more-stories-section img {
+  width: 95px;
+  margin-right: 15px;
 }
 
-main.row {
+main.row,
+.in-the-magazine-sec.row {
   padding-right: calc(var(--bs-gutter-x) / 2);
   padding-left: calc(var(--bs-gutter-x) / 2);
+}
+
+.see-feature::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
 }
 
 /* Hover effects */
@@ -437,7 +473,27 @@ div.image-2 {
   }
 
   .image-fixed-height {
-    height: 150px;
+    height: 120px;
+  }
+
+  .opinion-section-border > div > div:first-child {
+    width: 12%;
+    display: inline-block;
+  }
+
+  .opinion-section-border > div > div:last-child {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .width-double-in-lg-screen {
+    width: 50%;
+  }
+
+  .image img {
+    height: auto;
   }
 }
 
@@ -481,7 +537,27 @@ div.image-2 {
     padding: 0 2px;
   }
 
-  .col-md-3 {
+  .debate .media-body {
+    width: 75%;
+  }
+
+  .opinion-section-border > div > div:first-child {
     width: 25%;
+    display: inline-block;
+  }
+
+  .opinion-section-border > div > div:last-child {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .width-double-in-lg-screen {
+    width: 100%;
+  }
+
+  .image img {
+    height: 397px;
   }
 }
