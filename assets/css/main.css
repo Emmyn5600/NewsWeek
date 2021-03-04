@@ -432,7 +432,7 @@ div.image-2 {
   }
 
   h1 > a.underline-effect:hover,
-  h3 > a.underline-effect:hover{
+  h3 > a.underline-effect:hover {
     text-decoration: underline #f72210;
   }
 
