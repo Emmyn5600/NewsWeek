@@ -399,6 +399,20 @@ div.image-2 {
   margin-right: -15px;
 }
 
+.subscribe-btn-2 {
+  background-color: #f72310;
+  color: white;
+  border: none;
+}
+
+.image-background-newsweek {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
 @media only screen and (min-width: 768px) {
   .subscribe-btn {
     font-size: 1em;
