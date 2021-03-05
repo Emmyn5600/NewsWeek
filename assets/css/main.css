@@ -304,6 +304,149 @@ main.row,
 
 .social-media-footer a i {
   color: #000;
+  opacity: 0.65;
+}
+
+.subscribe-block > div > div {
+  margin-bottom: 20px;
+}
+
+.block-title.red {
+  color: #f72210;
+}
+
+.block-title {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+}
+
+.subscribe-block .col-l {
+  padding: 24px 20px 20px;
+  text-align: center;
+}
+
+.subscribe-block .col-l .image-2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  height: 160px;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.subscribe-block .mag-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.subscribe-block .mag-thumb.current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+div.image-2 {
+  position: relative;
+}
+
+.image-2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info h3 {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  color: black;
+}
+
+.subscribe-block h3 {
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.subscribe-block p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.element-invisible {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}
+
+.subscribe-block .free-signup input {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+}
+
+.subscribe-block .pelcro-subscribe-button {
+  position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  background-color: #f72310;
+  color: white;
+  padding: 7px 7px 7px 9px;
+  border-radius: 3px;
+  border: #fff;
+}
+
+.subscribe-block .pelcro-subscribe-button::after {
+  width: 6px;
+  height: 11px;
+  content: "›";
+  display: inline-block;
+  margin-left: 9px;
+}
+
+.subscribe-block .col-r .image-2 {
+  background: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  height: 170px;
+}
+
+.subscribe-block .col-r .info {
+  padding: 25px 20px 30px;
+  border: 1px solid #ebebeb;
+}
+
+.subscribe-block .col-r {
+  text-align: center;
+}
+
+.subscribe-button-footer {
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.subscribe-block .col-r .form-submit {
+  border-radius: 0 3px 3px 0;
+  border: #fff;
+}
+
+.subscribe-btn-2 {
+  background-color: #f72310;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.title-head {
+  color: #f72310;
+}
+
+.image-background-newsweek {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -320,7 +463,8 @@ main.row,
     cursor: pointer;
   }
 
-  h1 > a.underline-effect:hover {
+  h1 > a.underline-effect:hover,
+  h3 > a.underline-effect:hover {
     text-decoration: underline #f72210;
   }
 
