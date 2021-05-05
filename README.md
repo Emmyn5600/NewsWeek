@@ -24,6 +24,20 @@ The goal of
 
 Additional description about the project and its features.
 
+## `Mobile view`
+
+![](./assets/images/img7.png)
+
+## `Tablet view`
+![](./assets/images/img6.png)
+
+## `Desktop view`
+![](./assets/images/img1.png)
+![](./assets/images/img2.png)
+![](./assets/images/img3.png)
+![](./assets/images/img4.png)
+![](./assets/images/img5.png)
+
 ## `Built With`
 
 - HTML5 , CSS3
